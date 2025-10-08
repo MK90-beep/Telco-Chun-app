@@ -1,0 +1,18 @@
+# Ignore catboost logs
+catboost_info/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+ML-env/
+
+# Ignore model artifacts
+*.pkl
+*.joblib
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
